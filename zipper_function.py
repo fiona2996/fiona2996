@@ -14,9 +14,11 @@ def zipper(listA, listB):
 
 if __name__ == '_main_':
     
-    food = ['pizza', 'sushi', 'jam']
-    people = ['Bob', 'Kevin', 'Angela']
+    food = ['pizza', 'sushi', 'jam', 'pho', 'tofu']
+    people = ['Bob', 'Kevin', 'Angela', 'Meredith', 'Mena']
     
     result = zipeer(food, people)
     for item in result:
         print(item)
+        
+        
